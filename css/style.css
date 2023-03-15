@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bg_nav{
+    background-color: #1e202b;
+}
+.bg_con{
+    background-color: #323544;
+}
+.bg_mid{
+    background-color: #262936;
+}
+.fs_smail{
+    font-size: 0.6rem;
+}
+.py-45{
+padding: 2.3rem 0;
+}
+.text_colorVip{
+    color:#bfc1c8 ;
+}
+.btn{
+border-radius: 30px;
+padding: .3125rem 1.5625rem;
+}
+.itme{
+font-size: 0.9rem;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    padding: .3125rem 1rem;
+    transition: all  0.5s;
+    
+}
+.bg-img{
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+}
+.itme:hover{
+    color: #0a58ca !important;;
+border-color: #0a58ca;
+}
+.btn:hover {
+    color: var(--bs-btn-hover-bg);
+    background-color: transparent;
+}
+#search{
+   width: 100%;
+   padding: 0.7rem 0rem 0.7rem 1rem;
+   outline: none;
+    border: none;
+    border-radius: 30px;
+    margin-top: 4rem;
+    background-color: #1e202b;
+}
+#find{
+    padding: 0.4rem 2.5rem;
+    position: absolute;
+    top: 4.3rem;
+    right: 0.5rem;
+}
+input{
+    color: #fff;
+}
+
+.subscribe_btn{
+    padding: 0.6rem 1.3rem;
+    position: absolute;
+    top: 4.3rem;
+    right: 0.4rem;
+    background-color: #009ad8;
+}
+.subscribe{
+    width: 100%;
+    padding: 0.9rem 0rem 0.9rem 1rem;
+    outline: none;
+     border: none;
+     border-radius: 30px;
+     margin-top: 4rem;
+     background-color: #1e202b;
+}
+.text-vip{
+color: #009ad8;
+}
+.icon{
+    padding: 1.3rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e202b;
+    transition: all 0.5s;
+}
+.icon:hover{
+    color: #fff;
+    background-color: #009ad8;
+}
+.fs_end{
+    font-size: 0.8rem;
+}
+.bg_black{
+    background-color: rgba(0, 0, 0, 0.15);
+}
+.row>* {
+    padding-right: 0;
+    padding-left: 0;
+}
+.pt-11{
+    padding-top: .01rem;
+}
+.fs-lag{
+    font-size: 5rem;
+}
+.border_ri{
+    border-radius: 15px 0px 0px 15px;
+}
+.border_le{
+    border-radius:  0px 15px  15px 0px;
+}
+.font_family{
+font-family: 'Roboto', sans-serif;
+}
+.pb_vip{
+    padding-bottom: 5rem;
+}
+.top{
+    position: relative;
+    font-size: 3rem;
+    top: -45px;
+    left: -13px;
+}
+.top1{
+    position: relative;
+    font-size: 1rem;
+    top: -14px;
+    left: -3px;
+}
+.top2{
+    position: relative;
+    font-size: 0.9rem;
+    top: -9px;
+    left: -3px;
+}
+
+@media screen and (max-width: 360x), (max-width: 992px){
+    .border_ri{
+        border-radius: 15px 15px 0px 0px;
+    }
+    .border_le{
+        border-radius: 0px 0px 15px 15px;
+    }
+}

@@ -1,0 +1,160 @@
+<html>
+<head>
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="webfonts/Montserrat-VariableFont_wght.ttf">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg_nav py-45">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="img/Cursor-Arrow-PNG-Transparent-Image.png" class="mt-2" alt="" >
+      <div class="float-end ps-2 pt-1 mt-2">
+        <h1 class="fs-6 text-light">Weather</h1>
+        <p class="text_colorVip fs_smail">tagline goes here</p>
+      </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          
+          <li class="nav-item">
+            <a class="text-decoration-none" href="#"><button type="button" class="btn btn-outline-primary">Home</button></a>
+          </li>
+          <li class="nav-item ms-3 mt-1">
+            <a class="text-decoration-none text-light itme" href="#">News</a>
+          </li>
+          <li class="nav-item ms-3 mt-1">
+            <a class="text-decoration-none text-light itme" href="#">Live cameras</a>
+          </li>
+          <li class="nav-item ms-3 mt-1">
+            <a class="text-decoration-none text-light itme" href="#">Photos</a>
+          </li>
+          <li class="nav-item ms-3 me-5 mt-1">
+            <a class="text-decoration-none text-light itme" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+  <div class="bg-img pb_vip bg_nav">
+    <div class="container">
+    <div class="position-relative">
+  <input type="text" placeholder="Find your location..." id="search" onkeyup="find()" >
+  <button type="button" class="btn btn-primary" id="find" onclick="find()">find</button>
+</div>
+
+
+
+<div class="pt-5 row mx-1">
+  <div class="col-lg-4 bg_con border_ri">
+    <div class="bg_black d-flex justify-content-between py-2 px-2 align-items-center">
+      <div class=" text_colorVip font_family" id="day"></div>
+      <div class=" text_colorVip font_family" id="month"></div>
+    </div>
+    <h4 class="text_colorVip font_family ps-4 pt-4" id="city_name"></h4>
+    <div class="d-flex justify-content-around">
+    <div class="text-light fs-lag " id="lat"></div>
+    <div class="align-self-center"><img src="" alt="" id="icon"></div>
+  </div>
+  <div class="text-info ps-4" id="icontex"></div>
+  <div class=" row pt-3 ps-4">
+    <div class="col-2 text_colorVip font_family pt-2 pb-5"><img src="img/icon-umberella.png" alt="">  20%</div>
+    <div class="col-3 text_colorVip font_family pt-2 pb-5" id="km"><img src="img/icon-wind.png" alt=""></div>
+    <div class="col-2 text_colorVip font_family pt-2 pb-5"><img src="img/icon-compass.png" alt="">   East</div>
+  </div>
+  </div>
+  <div class="col-lg-4 bg_mid text-center">
+      <div class="bg_black text_colorVip py-2 font_family" id="day2"></div>
+      <div class="pt-5"><img src="" alt="" id="icon2"></div>
+      <h3 class="font_family text-light pt-3 fs-4" id="Maxtemp"></h3>
+      <p class="font_family text_colorVip" id="Mintemp"></p>
+      <div class="text-info pt-2 pb-5" id="icontex2"></div>
+  </div>
+  <div class="col-lg-4 bg_con border_le text-center">
+    <div class="bg_black text_colorVip py-2 font_family" id="day3"></div>
+    <div class="pt-5"><img src="" alt="" id="icon3"></div>
+    <h3 class="font_family text-light pt-3 fs-4" id="Maxtemp2"></h3>
+    <p class="font_family text_colorVip" id="Mintemp2"></p>
+    <div class="text-info pt-2 pb-5" id="icontex3"></div>
+  </div>
+
+
+
+
+
+</div>
+</div>
+</div>
+<div class="bg_nav"></div>
+
+
+
+
+
+
+
+
+<div class="pb-5 bg_con">
+  <div class="container px-3">
+    <div class="row">
+    <div class="position-relative col-lg-7">
+  <input type="text" class="subscribe" placeholder="Enter your email to subscribe...">
+  <button type="button" class="btn btn-primary subscribe_btn font_family">subscribe</button>
+</div>
+<div class="text-vip d-flex justify-content-around mb-3 col-lg-1 m-auto pt-3">
+  <a href="" class="text-decoration-none text-vip fa-lg me-1" target="_blank">
+    <i class="fa-brands fa-facebook-f rounded-circle icon"></i>
+  </a>
+  <a href="" class="text-decoration-none text-vip fa-lg me-1" target="_blank">
+    <i class="fa-brands fa-twitter rounded-circle icon"></i>
+  </a>
+  <a href="" class="text-decoration-none text-vip fa-lg me-1" target="_blank">
+    <i class="fa-brands fa-google-plus-g rounded-circle icon"></i>
+  </a>
+  <a href="" class="text-decoration-none text-vip fa-lg me-1" target="_blank">
+    <i class="fa-brands fa-pinterest rounded-circle icon"></i>
+  </a>
+</div>
+</div>
+<p class="pt-3 text_colorVip fs_end font_family">Copyright 2014 Company name. Designed by Mostafa Khaled. All rights reserved</p>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+ <script src="js/main.js"></script>
+</body>
+</html>
